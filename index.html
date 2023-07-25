@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tea shop</title>
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/5966b1d458.js" crossorigin="anonymous"></script>
     <!-- tailwind and daisyui  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -25,16 +27,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-        <style>
-            .manrope-font{
-                font-family: 'Manrope', sans-serif;
-            }
-        
-        </style>
+    <style>
+        .manrope-font {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="manrope-font">
+    <header class="container mx-auto">
+        <div class="hero min-h-screen bg-base-200">
+            <div class="hero-content flex-col lg:flex-row">
+                <div>
+                    <h1 class="text-7xl font-extrabold">It's good <br>
+                        tea time at <br>The Tea House</h1>
+                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary">Explore More <i class="fa-solid fa-arrow-up"></i> </button>
+                </div>
+                <div>
+                    <img src="/images/banner.png" class="max-w-sm " />
+                    <div class="flex items-center gap-4 drop-shadow-lg bg-white w-60 rounded p-5 -mt-16">
+                        <div class="rating star text-amber-500	"><i class="fa-solid fa-star"></i></div>
+                        <div>
+                            <h3 class="font-extrabold text-3xl	">5.00</h3>
+                            <p class="text-zinc-500	text-base	">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto mt-35">
+        <section class="text-center items-center justify-center	">
+            <h2 class="text-5xl	font-extrabold mb-5">Our Featured Products</h2>
+            <p class="font-medium text-base	max-w-4xl	mx-auto	"> are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="text-center	">
+                    <img src="images/tea-1.png" alt="">
+                    <h3 class="text-2xl	font-extrabold">Milk Tea</h3>
+                    <p class="font-semibold	 text-base	">Creamer could be replaced by fresh milk</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
